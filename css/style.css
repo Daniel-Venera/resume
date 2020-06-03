@@ -107,6 +107,7 @@ header h2 {
     justify-content: space-between;
     align-items: center;
     align-self: center;
+    width: 100%;
 }
 
 header h1, header h2 {
@@ -115,9 +116,6 @@ header h1, header h2 {
 
 .more {
     align-self: center;
-    margin-left: 30px;
-    margin-top: 30px;
-    font-size: 14px;
 }
 
 .rs {
@@ -259,7 +257,6 @@ figure {
 
 .tools, .languages, #education {
     margin-bottom: 20px;
-    width: 250px;
 }
 
 .other a {
@@ -268,9 +265,4 @@ figure {
 
 .other a:visited {
     color: #0275d8;
-}
-
-#code {
-    text-align: right;
-    margin-top: 30px;
 }
