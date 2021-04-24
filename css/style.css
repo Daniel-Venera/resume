@@ -112,6 +112,10 @@ header h2 {
     width: 100%;
 }
 
+.infos__name {
+    margin-top: 0;
+}
+
 header h1, header h2 {
     color: #f7f7f7;
 }
@@ -256,6 +260,11 @@ figure {
     width: 50px;
     float: left;
     margin-right: 10px;
+}
+
+.interests__interest {
+    display: flex;
+    margin-bottom: 8px;
 }
 
 .tools, .languages, #education {
