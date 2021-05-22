@@ -79,13 +79,17 @@ header {
     justify-content: center;
     background-color: #0275d8;
     color: #f7f7f7;
-    height: 15%;
+
+    padding: 8px 0;
 }
 
 header img {
     border-radius: 100%;
     align-self: center;
     width: 120px;
+    margin-bottom: 4px;
+}
+header figure {
     margin-right: 30px;
 }
 
@@ -140,7 +144,7 @@ header h2 {
 
 #quick-presentation {
     text-align: center;
-    max-width: 500px;
+    max-width: 740px;
     margin: 15px auto;
 }
 
@@ -176,7 +180,7 @@ header h2 {
 
 .section--experiences {
     width: 60%;
-    margin: 10px 0 0 20px;
+    margin: 0px 0 0 20px;
 }
 
 .section--contact {
@@ -184,11 +188,11 @@ header h2 {
 }
 
 .experiences__pro {
-    margin-bottom: 32px;
+    margin-bottom: 22px;
 }
 
 .experiences__title {
-    margin-bottom: 24px;
+    margin-bottom: 16px;
 }
 
 .experience .work-title {
@@ -220,13 +224,16 @@ header h2 {
 .other {
     width: 40%;
     padding-right: 40px;
-    margin: 10px 0 0 0;
+    margin: 0;
 }
 
 .other ul {
-    list-style: none;
-    padding-left: 5px;
+    padding-left: 1em;
     margin-top: 20px;
+}
+
+.other ul li {
+    margin-bottom: 8px;
 }
 
 .tools small {
@@ -327,8 +334,7 @@ svg {
 }
 
 .tools,
-.languages,
-#education {
+.languages {
     margin-bottom: 20px;
 }
 
@@ -347,13 +353,14 @@ svg {
 
 .hobbies {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
 }
 .projects__link,
 .hobby {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 0px 15px;
 }
 
 .projects__link {
